@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg:        #a0a2f8;
+  --primary:   #598dee;
+  --primary2:  #774b16;
+  --accent:    #ffead7;
+  --text:      #f60000;
+  --text-light:#c83636;
+  --white:     #eae1e1;
+  --border:    #92a4ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg);
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ================================
+   Navbar
+   ================================ */
+.navbar {
+  background-color: rgb(0, 66, 147);
+  padding: 18px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.navbar-logo span {
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s;
+  text-decoration: none
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: var(--primary);
+}
+
+.navbar-btn {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.navbar-btn:hover {
+  background-color: var(--primary2);
+}
+
+.border-1 {
+
+background-image: url("https://i.pinimg.com/736x/da/77/d9/da77d9abc83c947fbe9b7340864ec0e3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.border-2 {
+
+background-image: url("https://i.pinimg.com/736x/d8/92/c4/d892c42fdf1a572fffa9681d7625f848.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.cardh {
+  transform: rotate(-10deg);
+}
+.cardh3 {
+  transform: rotate(-10deg);
+}
+
+.border-3 {
+
+background-image: url("https://i.pinimg.com/736x/1b/6a/0f/1b6a0ff11cfabe8ee052245e8acd0fe7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.card2 {margin-top: 200px; transform: rotate(5deg);
+
+}
+.card3{
+  transform: rotate(-5deg);
+}
+
+.reel-video {
+    width: 280px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.border-4 {
+
+background-image: url("https://i.pinimg.com/1200x/84/50/30/845030581b33501144f5e3502cd27741.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.border-5 {
+
+background-image: url("https://i.pinimg.com/736x/c7/80/42/c78042e7c5493741d3d03a3dc3db2127.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.youtube-video {
+    width: 800px;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.youtube-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.border-7 {
+  background-image: url("https://i.pinimg.com/736x/08/b0/66/08b066e19696d32bdff78a1b91631313.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
